@@ -1,0 +1,190 @@
+content {
+
+background-color: lightgreen;
+
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+        
+}
+ 
+.topnav {
+
+  background-color: black;
+  overflow: hidden;
+}
+    
+.topnav a:hover{
+  background-color: lightyellow;
+  color: black;
+    
+}
+
+.topnav a {
+  
+  text-align: right;
+  color: white;
+  padding: 10px;
+  font-style: ariel;
+  font-size: 18px;
+  text-decoration: none;
+}
+ 
+.wrapper {
+  display: table;
+  width:100%
+  
+}
+  
+.col-12 {
+  
+  width: 100%;
+}    
+
+body {
+  margin: 0;
+  font-family: Arial;
+      
+}
+  
+header {
+  
+  text-align: left;
+  background-color: black;
+  
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+
+  display: inline-block;
+  list-style-type: none;
+}
+
+input {
+  
+  float: right;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+
+  font-size: 30px;
+  font-family: Arial;
+  text-align: center;
+  background-color: white;
+    
+
+}
+
+h3 {
+  font-family: Arial;
+  text-align: center;
+  background-color: white;
+}
+
+h4 {
+  font-family: Arial;
+  text-align: center;
+  background-color: white;
+}
+ 
+.row {
+  display: -ms- flexbox;
+  display: flex;
+  -ms- flex-wrap: wrap;
+  flex-wrap:wrap;
+  padding: 3px;
+ 
+}
+
+.column {
+float: left;
+width: 40%;
+padding: 10px;
+}
+
+.column img {
+margin-top: 12px;
+}
+
+@media only screen and (max-width:1800px) {
+  .topnav, .header, .content {
+    width: 100%;
+  }
+} 
+
+input {
+    
+  float: right;
+}
+
+a {
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+} 
+   
+fieldset {
+  background-color: lightyellow;
+   
+} 
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-soundcloud {
+    background: #FF6600;
+    color:white;
+}
+
+.fa-instagram {
+  background: #e75480;
+  color: white;
+} 
+
+@media screen and (max-width: 1800px) {.column { 
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+      }
+}
+  
+@media screen and (max-width: 600px) {.column { 
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+      }
+}
