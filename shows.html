@@ -1,179 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.main.css">
-<title>Festival</title>
-<style>    
-
-* {
-    box-sizing: border-box;
-}
-    
-body {
-    margin: 0;
-    font-family: Arial;
-        
-    }
- 
-.topnav {
-
-    background-color: black;
-    overflow: hidden;
-}
-    
-.topnav a:hover{
-    background-color: lightyellow;
-    color: black;
-    
-    }
-
-.topnav a {
-  
-  text-align: right;
-  color: white;
-  padding: 10px;
-  font-style: ariel;
-  font-size: 17px;
-  text-decoration: none;
-  text-align: center;
-  width: 15%;
-}
-    
-table {
-  font-family: arial;
-  border-collapse: collapse;
-  width: 100%;
-}
- 
-td, th {
-  border: 1px solid black;
-  text-align: center;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: lightblue;
-}
-
-column img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 80%;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-  
-h2 {
-    text-align: center;
-}
-    
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
-    
-row::after {
-    
-    content: "";
-    clear: both;
-    display: table;
-}
-    
-a {
-   text-align: center;
-    display: inline-block;
-    list-style-type: none;
-}
-
-input {
-    
-    float: right;
-}
-    
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
-}    
-    
-</style>
+<link rel="stylesheet" href="main.css">
+<title>Past and Upcoming Shows</title>
 </head>
 
+<body>
+
+<div class="header">
+    
+    <body style="background-color: #F6E8B1;"> </body>
+    <img src="images/tyronelogo.jpg" alt="tyrones logo" width="40" height="120" class="center">
+       
+</div>
+            
 <div class="topnav">
     
-     <img src="images/tyronelogo.jpg" alt="tyrones logo" width="200" height="100">
-         
- <a class="active" href="index.html"> Home</a>
+    <a class="active" href="index.html"> Home</a>
     <a href="about.html" > My Info </a> 
     <a href="festival.html"> Indiginous Festival</a>
     <a href="shows.html"> Past and Upcoming Shows </a>
     <a href="gallery.html"> Gallery </a>
     <a href="contact.html"> Contact Me </a>
-    <input type="text" placeholder="Search">
-  </div>
- 
-<div class="content">
+            
+</div> 
 
-     <body style="background-color: #white;">
-      <h2>Past and Upcoming Shows</h2>
-         
-         <h4> Here are some of the past and upcoming shows that i will be playing at with some friendly guests!</h4>
+<h2 style="color: black;"> Past and Upcoming Shows</h2>
+ 
+<p> Throughout my career i have had many opportunities to play locally and internationally, in a variety of different venues. Here you can find a list of the past shows that i have done and ones that i will be performing in the future.</p>
+<p> If you would like to book me for an event, head over to the contact page and send over what you would require.</p>
+<br></br>
+
+<div class="content" style="overflow-x: auto;">
                
-<table>
-    <tr>
-        <th>Venue</th>
-        <th>Location</th>
-        <th> Date </th>
-    </tr>
-        <td> Paris 15 </td>
-        <td> Malaga, Spain </td>
-        <td> 30th November 2019 </td>
-    <tr>
-        <td> Switch Bunker </td> 
-        <td> Southampton, Hampshire </td>
-        <td> 19th October 2019 </td>
-    </tr>
-    <tr>
-        <td> Sobar </td>
-        <td> Southampton, Hampshire </td>
-        <td> 1st June 2019 </td>
-    </tr>
-     <tr> 
-         <td> Switch Bunker </td>
-         <td> Southampton, Hampshire </td>
-         <td> 4th September 2019 </td>
-    </tr>
-    <tr> 
-         <td> Indigenous Festival </td>
-         <td> Broughton, Hampshire </td>
-         <td> 19th - 21st July 2019 </td>
-    </tr>
-    <tr> 
-         <td> Rebel </td>
-         <td> Southampton, Hampshire </td>
-         <td> 21st August 2019 </td>
-    </tr>
-        </table>
-   
-<div class="row">
-    <div class="column">
-<img src="images/malaga.jpg" alt="tyrones logo" width="350" height="170" class="responsive">
-    </div>
-<div class="column">
-         <img src="images/bunker.jpg" alt="tyrones logo" width="350" height="170" class="responsive">
-        </div>
-<div class="column">
-     <img src="images/bunker2.jpg" alt="tyrones logo" width="350" height="170" class="responsive"><div class="column"> 
+    <table id="shows">
+        <tr>
+            <th>Venue</th>
+            <th>Location</th>
+            <th> Date </th>
+        </tr>
+        <tr>
+            <td> Switch </td> 
+            <td> Southampton, Hampshire </td>
+            <td> 12th December 2020</td>
+        </tr>
+        <tr>
+            <td> Rebel </td>
+            <td> Southampton, Hampshire </td>
+            <td> 20th December 2020 </td>
+        </tr>
+         <tr> 
+            <td> Paris 15 </td>
+            <td> Malaga, Spain </td>
+            <td> 21st September 2019</td>
+        </tr>
+        <tr>
+            <td> 4 Anticipadia </td>
+            <td> Barcelona, Spain </td>
+            <td> 2nd October 2019 </td>
+        </tr>
+        <tr> 
+            <td>  Innovation in the Sun </td>
+            <td> Lloret Del Mar, Spain</td>
+            <td> 22nd - 2nd July 2019</td>
+        </tr>
+        </tr>
+    </table>
+  
 </div>
-         </div>    
+
+<div class="image">
+
+    <img src="images/bass-ino.jpg" style="width:33.3%">
+    <img src="images/the-bank.jpg" style="width:33.3%">
+    <img src="images/banking.jpg" style="width:32.5%">
+
+</div>
+
+
+</body>
+</html>
+   
+    

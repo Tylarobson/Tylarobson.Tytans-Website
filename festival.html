@@ -1,44 +1,110 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.main.css">
-<title>Festival</title>
+<link rel="stylesheet" href="main.css"> 
+<title>Indignous Festival</title>
 </head>
 
 <body>
-<div class="topnav">    
- 
-     <img src="images/tyronelogo.jpg" alt="tyrones logo" width="200" height="100">
-      
-  <a class="active" href="index.html"> Home</a>
-    <a href="about.html" > My Info </a> 
-    <a href="festival.html"> Indiginous Festival</a>
-    <a href="shows.html"> Past and Upcoming Shows </a>
-    <a href="gallery.html"> Gallery </a>
-    <a href="contact.html"> Contact Me </a>
-    
-  </div> 
-    
-    <div class="content"> 
-        <body style="background-color: darkorange;"> 
-<p> I currently am a co-owner of Indigenous Festival, this is set in a hidden valley in Hampshire, it is a place to rekindle the spirit of our tribal ancestry, our connection to the Earth and to build a sense of community. Creating a sense of oneness, harmony and connecting people through music art and dance.</p> 
-            
-<p> Birthed in 2015, Indigenous is known as one of the best micro festivals in the south-west. Creating a whole new experience for party-goers everywhere, Indigenous is a haven for non-commercial music lovers. Ranging from Drum and Bass, Psy-trance and Techno. </p> 
-            
-            </div>
-        
-<div class="wrapper">
 
-    <img class="webdesign" src="images/indigilogo.jpg" style="width:100%">
-    <img class="webdesign" src="images/indiginous.jpg" style="width:100%">
-        <img class="webdesign" src="images/indigi.jpg" style="width:100%">
-    <img class="webdesign" src="images/corsh.jpg" style="width:100%">
-    <img class="webdesign" src="images/cafe.jpg" style="width:100%">
-    <img class="webdesign" src="images/ben.jpg" style="width:100%">
-    <img class="webdesign" src="images/crowd.jpg" style="width:100">
-                                                         
+<div class="header">
+
+    <body style="background-color: #F6E8B1;"> </body>
+    <img src="images/tyronelogo.jpg" alt="tyrones-logo" width="40" height="120" class="center">
+       
 </div>
+            
+<div class="topnav">
+    
+    <a class="active" href="index.html"> Home</a>
+        <a href="about.html" > My Info </a> 
+        <a href="festival.html"> Indiginous Festival</a>
+        <a href="shows.html"> Past and Upcoming Shows </a>
+        <a href="gallery.html"> Gallery </a>
+        <a href="contact.html"> Contact Me </a>
+            
+</div> 
+    
+<div class="festival-info"> 
+
+    <img src="images/indigilogo.jpg" style="width:50%">
+            
+    <h3> I currently am a co-owner of Indigenous Festival, this is set in a hidden valley in Hampshire, it is a place to rekindle the spirit of our tribal ancestry, our connection to the Earth and to build a sense of community. Creating a sense of oneness, harmony and connecting people through music art and dance.</h3>
+            
+    <h3> Celebrating freedom and the beauty of nature in an uplifting and spiritual environment. A haven created for non-commercial music lovers where you can come and get lost in the mind bending sounds and immersive stage design. We invite you to experience some of the best established and upcoming artists from the psychedelic music scene.</h3>
+
+    <h3> Local two stage festival with catering and camping facilities. Our vision is to create a whole new experience for party goers... Our aim is to promote tranquility and celebrate freedom by creating a therapeutic environment and haven for non commercial music lovers where you can come and be at one with the music, be surrounded by like minded people. After the success of the first ever Indigenous Festival we aim to make every year bigger and better. </h3>
+
+</div>
+
+<br></br>
+        
+<div class="slideshow">
+
+    <div class="image-slideshow fade">
+        <img src="images/indiginous.jpg" style="width:100%">
+    </div>
+    <div class="image-slideshow fade">
+        <img src="images/indigi.jpg" style="width:100%">
+    </div>
+    <div class="image-slideshow fade">
+        <img src="images/corsh.jpg" style="width:100%">
+    </div>
+    <div class="image-slideshow fade">
+        <img src="images/cafe.jpg" style="width:100%">
+    </div>
+    <div class="image-slideshow fade">
+        <img src="images/ben.jpg" style="width:100%">
+    </div>
+    <div class="image-slideshow fade">
+        <img src="images/stage.jpg" style="width:100%"> 
+    </div>
+    </div class="image-slideshow fade"> 
+        <img src="images/fire.jpg" style="width:100%">
+    </div>
+    <div class="image-slideshow fade">
+        <img src="images/artist.jpg" style="width:100%">
+    </div>
+    <div class="image-slideshow" style="width:100%">
+        <img src="images/outside.jpg" style="width:100%">
+    </div>
+</div> 
+
+<br></br>
+
+<div style="text-align: center;">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+
+</div> 
+
+<script>
+    var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("image-slideshow fade");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000);
+}
+</script>
 </body>
 </html>
-    

@@ -1,0 +1,22 @@
+{
+  "name": "tytan-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "website.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tylarobson/Tytan-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tylarobson/Tytan-Website/issues"
+  },
+  "homepage": "https://github.com/Tylarobson/Tytan-Website#readme",
+  "dependencies": {
+    "sass": "^1.26.10"
+  }
+}
