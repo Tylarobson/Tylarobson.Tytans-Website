@@ -44,12 +44,12 @@
 ![](images/desktopcontact.jpg)
 
 # Mobile
-![](mobilehomepage.jpg)
-![](mobileabout.jpg)
-![](mobilefestival.jpg)
-![](mobileshows.jpg)
-![](mobilegallery.jpg)
-![](mobilecontactme.jpg)
+![](images/mobilehomepage.jpg)
+![](images/mobileabout.jpg)
+![](images/mobilefestival.jpg)
+![](images/mobileshows.jpg)
+![](images/mobilegallery.jpg)
+![](images/mobilecontactme.jpg)
         
 # Problems along the way
 There main probelms that occured was some of the images would not load when trying to run the website however with some research this was quickly mended. Also when trying to use float sometimes it would not work but when playing around with it made everything fall into place.
