@@ -2,7 +2,7 @@
 
 
 # Portfolio for an aspiring DJ
-  This website was created to help a friend to showcase his work to the public.
+  This website was created to help a friend to showcase his work to the public and attract more attention from people from around the world.
   
  # Links
   
@@ -13,7 +13,7 @@
  # Install
   npm install and npn run sass-watch
   node moduels packet
-  A package.json 
+  A website.json 
   
   # Style Guide 
   
@@ -34,7 +34,7 @@
   
   # Testing
   
-  When testing this website i wanted to make sure that it runs on all browsers and that everything works on the website such as embeded links, content and images. 
+  When testing this website i wanted to make sure that it runs on all browsers and that everything works on the website such as embeded links, content and images. Making sure that the website is responsive to fit to a desktop and mobile devices, by doing this the code has to be implimented for the sies of the different screens that the website can be viewed on. 
   
  # Browsers it supports: 
         Google Chrome
@@ -65,4 +65,4 @@ There main probelms that occured was some of the images would not load when tryi
 When looking back at the whole process there are somethings that now i wish i would devlop more, because i lose the ability in myself sometimes it can take a while to get the code and layout right. Also creating the website for a friend took more time than normal as having to talk about the layout and the content of the work. I used HTML, CSS and Javascript to create the website with some guidence from w3schools. Overall i feel that with more time this website could look alot better. 
   
 # Conclustion
-Overall this project was something of a challenge however it came together for the end result. 
+Overall this project was something of a challenge however i feel that it has achieved to be showing what the artist has to offer, i feel with more CSS to the website then this could be looking more professional. 
