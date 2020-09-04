@@ -4,12 +4,6 @@
 # Portfolio for an aspiring DJ
   This website was created to help a friend to showcase his work to the public and attract more attention from people from around the world.
   
- # Links
-  
-  Website: file:///Users/tyronehall/Documents/Tylarobson.github.io-master/Tytan-Website/index.html
-  
-  Github: https://github.com/Tylarobson/Tylarobson.github.io
-  
  # Install
   npm install and npn run sass-watch
   node moduels packet
@@ -25,7 +19,7 @@
   
   # Links
   
-  Website: https://tylarobson.github.io/index.html
+  Website: file:///Users/tyronehall/Documents/Tylarobson.github.io-master/Tytan-Website/festival.html
   
   Github: https://github.com/Tylarobson/Tylarobson.github.io
   
