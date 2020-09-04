@@ -29,7 +29,7 @@
   
   # Testing
   
-  When testing this website i wanted to make sure that it runs on all browsers and that everything works on the website such as embeded links, content and images. Also making sure that the website is responsive for desltop and mobile devices.
+  When testing this website i wanted to make sure that it runs on all browsers and that everything works on the website such as embeded links, content and images. Also making sure that the website is responsive for desktop and mobile devices.
   
  # Browsers it supports: 
         Google Chrome
