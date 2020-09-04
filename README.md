@@ -36,12 +36,12 @@
         Firefox 
         
 # Desktop 
-![](images/desktophomepage.jpg)
-![](images/desktopabout.jpg)
-![](images/desktopfestival.jpg)
-![](images/desktopshows.jpg)
-![](images/desktopgallery.jpg)
-![](images/desktopcontact.jpg)
+![](image/desktophomepage.jpg)
+![](image/desktopabout.jpg)
+![](image/desktopfestival.jpg)
+![](image/desktopshows.jpg)
+![](image/desktopgallery.jpg)
+![](image/desktopcontact.jpg)
 
 # Mobile
 ![](mobilehomepage.jpg)
