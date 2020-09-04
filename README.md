@@ -36,7 +36,7 @@
         Firefox 
         
 # Desktop 
-![](images/desktophomepage.jpg)
+![](Tytan-Website/images/desktophomepage.jpg)
 ![](desktopabout.jpg)
 ![](desktopfestival.jpg)
 ![](desktopshows.jpg)
