@@ -1,7 +1,4 @@
-# tytan-website 
-
-# Tyrone-Website 
-
+# Tytan-Website 
 
 # Portfolio for an aspiring DJ
   This website was created to help a friend to showcase his work to the public.
